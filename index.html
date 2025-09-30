@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pretty 'U'</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="date"></div>
+      <div id="time" class="time"></div>
+    </header>
+    <button class="button" onclick="randomColor()">
+      <img alt="paintbucket-button" src="./images/paint_bucket.svg" />
+    </button>
+    <!--popup-Modal-->
+    <div class="popup-modal">
+      <div class="popup-modal__container">
+        <div class="popup-modal__content">
+          <button class="popup-modal__close-btn" type="button">X</button>
+          <h3 class="modal__title">
+            If you boop the button super fast, it's like a dance party. Just
+            thought I'd let you know.
+          </h3>
+          <button class="okay-button">OK</button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
